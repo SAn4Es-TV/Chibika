@@ -1,0 +1,19 @@
+﻿<Window x:Class="ChibikaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChibikaApp"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Title="MainWindow" Height="117.6" Width="183.3"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        MouseLeftButtonUp="Window_MouseLeftButtonUp"
+        Loaded="Window_Loaded"
+        AllowsTransparency="True" Background="#00F10000"
+        Topmost="True" ShowInTaskbar="False">
+    <Grid>
+        <Image Source="pack://application:,,,/Chibi/m_sticker_1.png" Name="monika"/>
+    </Grid>
+</Window>
